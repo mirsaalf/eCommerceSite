@@ -2,7 +2,69 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="display-1">Welcome to Miranda's Skin Care!</h1>
+
+<h2 class="display-3">About</h2>
+<p class="text-center">Miranda's Skin Care is all about providing the best for your skin! Helping you understand which products will work best for you and your skin type, we will curate the perfect skin care regimen (day + night!) to help you achieve the skin you've always wanted.</p>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+            <img width="300px" height="300px" src="/images/aloe.webp" />
+            <p>Aloe Vera: Good for hydration, suitable for all skin types</p>
+            <p>$16.99</p>
+        </div>
+        <div class="col">
+            <img width="300px" height="300px" src="/images/moisturizer.webp" />
+            <p>Moisturizer: Creates that "glass skin" look, suitable for all skin types</p>
+            <p>$25.99</p>
+        </div>
+        <div class="col">
+            <img width="300px" height="300px" src="/images/sunscreen.webp" />
+            <p>SPF: Protect yourself from harmful UV rays, suitable for all skin types</p>
+            <p>$30.99</p>
+        </div>
+        <div class="col">
+            <img width="300px" height="300px" src="/images/toner.webp" />
+            <p>Toner: Evens skin tone from redness and discoloration, suitable for all skin types</p>
+            <p>$19.99</p>
+        </div>
+    </div>
 </div>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Skin Type</th>
+            <th scope="col">Safe for Sensitive Skin?</th>
+            <th scope="col">Safe for Pregnancy?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Aloe Vera</th>
+            <td>All skin types</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Moisturizer</th>
+            <td>Normal to Dry</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">SPF</th>
+            <td>All skin types</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Toner</th>
+            <td>All skin types</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+    </tbody>
+</table>
